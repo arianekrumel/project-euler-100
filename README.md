@@ -1,2 +1,2 @@
-# euler-private
-Private Project Euler Solutions
+# project-euler-100
+Project Euler 100
