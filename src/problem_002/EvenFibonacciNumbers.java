@@ -1,4 +1,4 @@
-package problem02;
+package problem_002;
 /**
  * Problem #2
  * 06/20/2020 
