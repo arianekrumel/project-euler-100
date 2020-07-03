@@ -9,19 +9,16 @@ public class EvenFibonacciNumbers {
 	public static void main(String[] args)
 	{
 		int firstTerm = 1, secondTerm = 2;
-		int term = 3;
+		int thirdTerm = firstTerm + secondTerm;
+		int term;
 		int sum = 0;
 		
-		while(term <= 4000000)
+		while(firstTerm <= 4000000)
 		{
+			sum+=thirdTerm;
 			term = firstTerm;
 			firstTerm = secondTerm;
 			secondTerm += term;
-			
-			if(term%2 == 0)
-			{
-				sum += term;
-			}
 		}
 		System.out.println("Final Sum: "+ sum);
 	}
