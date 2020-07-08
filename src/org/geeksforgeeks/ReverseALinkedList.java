@@ -14,9 +14,9 @@ public class ReverseALinkedList {
 		LinkedListNode head = new LinkedListNode(1, second);
 		ll.setHead(head);
 		
-		System.out.println(ll.printList());
-		ll.reverseList();
-		System.out.println(ll.printList());
+		System.out.println(ll.retrieveList(head));
+		ll.reverseList(head);
+		System.out.println(ll.retrieveList(head));
 		System.out.println("");
 		
 		// case 2
@@ -27,9 +27,9 @@ public class ReverseALinkedList {
 		head = new LinkedListNode(4, second);
 		ll.setHead(head);
 		
-		System.out.println(ll.printList());
-		ll.reverseList();
-		System.out.println(ll.printList());
+		System.out.println(ll.retrieveList(head));
+		ll.reverseList(head);
+		System.out.println(ll.retrieveList(head));
 		System.out.println("");
 		
 		// case 3
@@ -41,18 +41,18 @@ public class ReverseALinkedList {
 		head = new LinkedListNode(5, second);
 		ll.setHead(head);
 		
-		System.out.println(ll.printList());
-		ll.reverseList();
-		System.out.println(ll.printList());
+		System.out.println(ll.retrieveList(head));
+		ll.reverseList(head);
+		System.out.println(ll.retrieveList(head));
 		System.out.println("");
 		System.out.println("");
 		
 		// case 4
 		ll = new LinkedList();
 		
-		System.out.println(ll.printList());
-		ll.reverseList();
-		System.out.println(ll.printList());
+		System.out.println(ll.retrieveList(head));
+		ll.reverseList(head);
+		System.out.println(ll.retrieveList(head));
 		System.out.println("");
 		
 		// case 5
@@ -60,9 +60,9 @@ public class ReverseALinkedList {
 		head = new LinkedListNode(1, null);
 		ll.setHead(head);
 		
-		System.out.println(ll.printList());
-		ll.reverseList();
-		System.out.println(ll.printList());
+		System.out.println(ll.retrieveList(head));
+		ll.reverseList(head);
+		System.out.println(ll.retrieveList(head));
 		System.out.println("");
 	}
 }
