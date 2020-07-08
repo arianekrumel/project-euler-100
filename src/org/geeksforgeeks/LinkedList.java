@@ -2,7 +2,7 @@ package org.geeksforgeeks;
 
 public class LinkedList {
 	
-	LinkedListNode head;
+	public LinkedListNode head;
 	
 	public LinkedList()
 	{
